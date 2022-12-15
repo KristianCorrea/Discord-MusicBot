@@ -17,7 +17,7 @@ const Home = (_props: any) => {
     return (
         <Container>
             <Head>
-                <title>Discord Music Bot</title>
+                <title>Parlo Music Bot</title>
             </Head>
             <Container css={ {
                 display: 'flex',
@@ -53,9 +53,8 @@ const Home = (_props: any) => {
                 alignItems: 'center',
                 flexDirection: 'column',
             } }>
-                <Text h1 css={ {textGradient: "180deg, $blue600 -20%, $blue800 100%",} }>Discord Music Bot</Text>
-                <Text h3 css={ {color: '$gray800'} }>An advanced discord music bot, supports Spotify, SoundCloud,
-                    YouTube with Shuffling, Volume Control and Web Dashboard!</Text>
+                <Text h1 css={ {textGradient: "180deg, $blue600 -20%, $blue800 100%",} }>Parlo Music Bot</Text>
+                <Text h3 css={ {color: '$gray800'} }>is now Online!</Text>
                 <Container css={ {display: 'flex', alignItems: 'center', justifyContent: 'center'} }>
                     <Button color="primary" onClick={ () => window.location.pathname = '/login' } shadow style={ {
                         marginTop: '1rem'
